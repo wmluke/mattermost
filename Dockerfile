@@ -10,7 +10,7 @@ ARG PUID=2000
 ARG PGID=2000
 ARG TARGETOS
 ARG TARGETARCH
-ARG MM_VERSIONs
+ARG MM_VERSION
 ARG MM_PACKAGE="https://releases.mattermost.com/${MM_VERSION}/mattermost-${MM_VERSION}-${TARGETOS}-${TARGETARCH}.tar.gz?src=docker"
 
 # # Install needed packages and indirect dependencies
