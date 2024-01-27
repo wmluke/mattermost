@@ -31,4 +31,5 @@ jobs:
           context: .
           platforms: linux/arm64,linux/amd64
           tags: wmluke/mattermost:latest,wmluke/mattermost:${{ inputs.mm-version }}
+          build-args: MM_VERSION=${{ inputs.mm-version }}
           outputs: 'type=registry,push=true'
